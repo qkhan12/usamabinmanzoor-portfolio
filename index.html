@@ -8,9 +8,12 @@
 </head>
 <body>
 
-  <!-- 🔝 Header with top profile picture -->
+  <!-- 🔝 Header with profile picture -->
   <header>
-    <img src="images/profile.jpg" alt="Profile" class="profile-pic" />
+    <!-- Clickable image using anchor link -->
+    <a href="#fullimage">
+      <img src="images/profile.jpg" alt="Profile" class="profile-pic" />
+    </a>
     <h1><a href="#about">Usama Bin Manzoor</a></h1>
     <p>BS in English | IELTS Trainer | Safety Officer</p>
   </header>
@@ -42,6 +45,12 @@
     <p>Email: usamabinmanzoor@example.com</p>
     <p>Phone: +92-300-XXXXXXX</p>
   </section>
+
+  <!-- 🔲 Fullscreen Image Overlay (Lightbox style) -->
+  <div id="fullimage" class="overlay">
+    <a href="#" class="close">✖</a>
+    <img src="images/profile.jpg" alt="Full Profile Image" />
+  </div>
 
 </body>
 </html>
