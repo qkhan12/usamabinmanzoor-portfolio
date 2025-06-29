@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Usama Bin Manzoor - Portfolio</title>
+  <!-- ✅ Correct CSS link -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- 🔝 Header with profile picture -->
+  <!-- 🔝 Header with profile picture (linked correctly) -->
   <header>
-    <!-- Clickable image using anchor link -->
     <a href="#fullimage">
       <img src="images/profile.jpg" alt="Profile" class="profile-pic" />
     </a>
@@ -29,13 +29,17 @@
     </p>
   </section>
 
-  <!-- 💼 Experience Section -->
+  <!-- 💼 Experience Section with .docx link -->
   <section>
     <h2>Experience</h2>
     <ul>
       <li>📘 English Teacher – Read Foundation (2 years)</li>
       <li>🎓 IELTS Trainer – Band 6.5 (1 year)</li>
-      <li>🛡️ NEBOSH Certified – Safety Officer at Diamer Basha Dam</li>
+      <li>🛡️ 
+        <a class="doc-link" href="safety-officer-details.docx" target="_blank" download>
+          NEBOSH Certified – Safety Officer at Diamer Basha Dam (Click to View .docx)
+        </a>
+      </li>
     </ul>
   </section>
 
@@ -46,7 +50,7 @@
     <p>Phone: +92-300-XXXXXXX</p>
   </section>
 
-  <!-- 🔲 Fullscreen Image Overlay (Lightbox style) -->
+  <!-- 🔲 Fullscreen Profile Image Overlay -->
   <div id="fullimage" class="overlay">
     <a href="#" class="close">✖</a>
     <img src="images/profile.jpg" alt="Full Profile Image" />

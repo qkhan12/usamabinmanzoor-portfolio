@@ -1,3 +1,4 @@
+/* ✅ Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html {
@@ -12,6 +13,7 @@ body {
   color: #333;
 }
 
+/* 🔝 Header Styling */
 header {
   background: #1a1a1a;
   color: white;
@@ -40,15 +42,16 @@ header p {
   color: #cccccc;
 }
 
+/* 👤 Profile Image Styling */
 .profile-pic {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 4px solid white;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   object-fit: cover;
   margin-bottom: 10px;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .profile-pic:hover {
@@ -56,6 +59,7 @@ header p {
   cursor: zoom-in;
 }
 
+/* 📦 Sections */
 section {
   background: white;
   margin: 30px auto;
@@ -85,6 +89,7 @@ p {
   color: #444;
 }
 
+/* 🎞️ Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -96,7 +101,7 @@ p {
   }
 }
 
-/* ✅ Fullscreen Overlay Style */
+/* 🔍 Fullscreen Overlay Style */
 .overlay {
   display: none;
   position: fixed;
@@ -126,5 +131,18 @@ p {
   right: 30px;
   color: white;
   font-size: 30px;
+  text-decoration: none;
+}
+
+/* 🔗 .docx file link style */
+.doc-link {
+  color: #0056b3;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.doc-link:hover {
+  color: #0099ff;
   text-decoration: none;
 }
